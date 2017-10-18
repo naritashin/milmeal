@@ -135,7 +135,6 @@
 }
 
 .p-img {
-  height: 320px;
   width: 220px;
   overflow: hidden;
 
@@ -150,12 +149,18 @@
   }
 
   &-cap {
-    padding: 5px;
+    padding: {
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 8px;
+    }
     color: #000;
     background-color: #eee;
 
     &-text {
-      height: 66px;
+      height: 70px;
+      line-height: 1.5;
     }
 
     &-price {
