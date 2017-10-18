@@ -145,12 +145,18 @@
 
   &-product {
     height: 223px;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   &-cap {
     padding: 5px;
     color: #000;
     background-color: #eee;
+
+    &-text {
+      height: 66px;
+    }
 
     &-price {
       font-size: 14px;
@@ -204,8 +210,13 @@
 
   &__nav {
     &__list {
+      padding-left: 11px;
       & >li {
         display: inline-block;
+
+        &:nth-child(n+2) {
+          margin-left: 19.9px;
+        }
       }
     }
   }
@@ -213,13 +224,55 @@
   &__bottom {
     background-color: #434343;
     padding: {
-      top:32px;
-      bottom: 8px;
+      top:35px;
+      bottom: 11px;
+    }
+  }
+
+  &__img {
+    padding-top: 6px;
+  }
+
+  &__tel {
+    color: #999;
+
+    &__num {
+      font-size: 30px;
+      letter-spacing: 1.2px;
+    }
+
+    &__time {
+      font-size: 10px;
+      line-height: 30px;
+      vertical-align: super;
     }
   }
 }
 
 .p-author {
   max-width: $maxWidth;
-  margin: 0 auto;
+  margin: {
+    top: 32px;
+    left: auto;
+    right: auto;
+
+  }
+}
+
+.p-total {
+  font-size: 16px;
+  padding: {
+    top: 5px;
+    right: 12px;
+    bottom: 5px;
+  }
+
+  &__cart {
+    border: 1px solid #1c1c1c;
+    border-radius: 3px;
+    padding: 7px;
+    line-height: 1.5;
+    background-color: $brandColor;
+
+  }
 }

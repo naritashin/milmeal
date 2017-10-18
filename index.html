@@ -102,11 +102,13 @@
       <section>
         <ul class="c-list u-mt-21">
           <li>
-            <figure class="p-img p-img-shadow u-inlineblock">
+            <div class="p-img p-img-shadow u-inlineblock">
               <a href="">
-                <img src="http://milmeal.com/upload/save_image/06051230_5934d063cfcc4.jpg" alt="" class="p-img-product">
-                <figcaption class="c-text-basic c-text-bold p-img-cap u-block u-align-left">sample<span class="c-text-essential c-text-light p-img-price u-block u-align-right">販売価格(税込)： 0,000円</span></figcaption></a>
-              </figure>
+                <div alt="" class="p-img-product" style="background-image: url(http://milmeal.com/upload/save_image/06051230_5934d063cfcc4.jpg);"></div>
+                <div class="c-text-basic c-text-bold p-img-cap u-block u-align-left">
+                  <p class="p-img-cap-text">sample</p><p class="c-text-essential c-text-light p-img-price u-block u-align-right">販売価格(税込)： 0,000円</p>
+                </div></a>
+              </div>
             </li>
         </ul>
       </section>
@@ -120,7 +122,7 @@
 <section class="c-wrapper">
   <h3 class="c-text-large c-text-title c-titlebox-bgcolor p-smalltitle p-smalltitle-radius u-inlineblock u-mt-16">ミルミールのこだわり</h3>
 
-  <div class="p-good__list u-mt-16 u-cf">
+  <div class="p-good__list u-mt-16 u-cf\">
     <figure class="p-img-shadow p-good__item u-fl">
       <a href="">
         <img src="http://milmeal.com/user_data/packages/default/images/home_goodfor_videos.png" alt="関連動画">
@@ -172,7 +174,13 @@
 </section>
 
     <section class="total">
-      <div class="c-wrapper align-right">合計</div>
+      <div class="futuraR align-right c-wrapper c-text-total p-total">
+        <p class="u-inlineblock">合計数量：0</p>
+        <p class="u-inlineblock u-ml-4">商品金額：0円</p>
+        <p class="u-inlineblock u-ml-12">
+          <a href="" class="c-text-search p-total__cart u-inlineblock">カゴの中を見る</a>
+        </p>
+      </div>
     </section>
   </main>
 
@@ -184,23 +192,23 @@
         <li><a href="" class="c-text-nav">私たちのやりたいこと</a></li>
         <li><a href="" class="c-text-nav">関連動画</a></li>
         <li><a href="" class="c-text-nav">雑誌・メディア</a></li>
-        <li><a href="" class="c-text-nav">お問い合わせ</a></li>
+        <li><a href="" class="c-text-nav">ご質問・お問い合わせ</a></li>
         <li><a href="" class="c-text-nav">ご感想</a></li>
-        <li><a href="" class="c-text-nav">会社概要</a></li>
-        <li><a href="" class="c-text-nav">マイページ</a></li>
+        <li><a href="" class="c-text-nav">会社について</a></li>
       </ul>
     </nav>
 
     <section class="p-footer__bottom">
       <div class="c-wrapper u-cf">
-        <figure class="u-fl">
+        <figure class="p-footer__img u-fl">
           <img src="http://milmeal.com/user_data/packages/default/images/icon-tel.png" alt="tel" class="">
         </figure>
-        <div class="u-fl">
-          <span>ご注文専用ダイヤル</span>03-5347-0844<span>9:30～18:30(土日省く)</span>
+        <div class="p-footer__tel u-ml-9 u-fl">
+          <span class="u-block u-fs-12">ご注文専用ダイヤル</span>
+          <span class="futuraB p-footer__tel__num u-mt-2 u-inlineblock">03-5347-0844</span><span class="p-footer__tel__time u-ml-1">9:30～18:30</span><span class="p-footer__tel__time u-fs-12">(土日省く)</span>
         </div>
       </div>
-      <p class="c-text-author p-author u-fs-12">copyright &copy; 2015-2017  【公式】 芸能人愛用インフルブロックのどあめ 【ミルミールオンラインショップ】 all rights reserved</p>
+      <p class="c-text-author p-author u-fs-12">Copyright &copy; 2015-2017  【公式】芸能人愛用インフルブロックのどあめ【ミルミールオンラインショップ】 All rights reserved.</p>
     </section>
 
   </footer>
