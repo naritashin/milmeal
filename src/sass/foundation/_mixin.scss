@@ -1,0 +1,28 @@
+@mixin positionBottom() {
+  position: fixed;
+  bottom: 0;
+}
+
+@mixin form($width, $fontSize) {
+  width: $width;
+  vertical-align: middle;
+  padding: {
+    top: 8px;
+    bottom: 8px;
+    left: 4.8px;
+  }
+  border: {
+    radius: 3px;
+    width: 1px;
+  }
+
+  font: {
+    size: $fontSize;
+  }
+}
+
+@mixin btn($color) {
+  border: {
+    color: $color;
+  }
+}

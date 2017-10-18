@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'futuraB';
+  src: url(../fonts/FuturaTEE-Bold.ttf)format('truetype');
+}
+
+@font-face {
+  font-family: 'futuraR';
+  src: url(../fonts/FuturaTEEMed-Regular.ttf)format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  font: {
+    size: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.futuraB {
+  font-family: futuraB;
+}

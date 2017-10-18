@@ -1,0 +1,132 @@
+.p-nav {
+  background-color: $brandColor;
+}
+
+.p-logo {
+  width: 288px;
+
+  font: {
+    size: 14px;
+  }
+}
+
+.p-header {
+
+  &-text {
+    letter-spacing: 1px;
+    font: {
+      size: 35px;
+    }
+  }
+
+  &__wrapper {
+    width: 950px;
+    padding: {
+      top: 8px;
+      bottom: 27px;
+      left: 5px;
+      right: 4px;
+    }
+  }
+
+  &-mllarge {
+    margin-left: 29px;
+  }
+
+  &__tel {
+    padding: {
+      top: 9px;
+      left: 5px;
+      right: 7px;
+    }
+  }
+
+  &__time {
+    padding :{
+      top: 7px;
+      left: 11.7px;
+      bottom: 7px;
+    }
+  }
+}
+
+.p-form {
+
+  &__btn {
+    padding: {
+      top: 4px;
+      bottom: 4px;
+      left: 3.9px;
+      right: 4px;
+    }
+    margin-left: 2px;
+    color: #fff;
+    background-color: $btnBgColor;
+  }
+}
+
+.p-list {
+  display: table;
+  text-align: center;
+   & > li {
+    display: table-cell;
+    padding: {
+      top: 15px;
+      bottom: 15px;
+    }
+   }
+}
+
+.p-top {
+  &-wrapper {
+    width: 935px;
+    padding: {
+      top: 19px;
+    }
+  }
+}
+
+.p-title {
+  width: 300px;
+  height: 63px;
+  text-align: center;
+  line-height: 65px;
+}
+
+.p-news-pd {
+  padding: {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 13px;
+  }
+}
+
+.p-lineheight-sm {
+  line-height: 1.5;
+}
+
+.p-lineheight-md {
+  line-height: 2;
+}
+
+.p-lineheight-l {
+  line-height: 2.5;
+}
+
+.p-smalltitle {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+
+  &-radius {
+    border-radius: 15px;
+  }
+}
+
+.p-img {
+  &-shadow {
+    box-shadow: 0 0 5px #ccc;
+  }
+}

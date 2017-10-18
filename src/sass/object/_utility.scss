@@ -1,0 +1,27 @@
+
+.u-lineheightmd {
+  line-height: 2;
+}
+
+.u-subnav {
+
+  &-decorate {
+    text-decoration: underline;
+  }
+
+  &-color {
+    color: #000;
+  }
+}
+
+.u-tel {
+  &__num {
+    line-height: 30px;
+  }
+
+  &__time {
+    font: {
+      size: 11px;
+    }
+  }
+}

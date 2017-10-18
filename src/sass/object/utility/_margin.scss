@@ -1,0 +1,52 @@
+.u-mt {
+  @for $num from 4 through 24 {
+    &-#{$num} {
+      margin-top: #{$num}px;
+    }
+  }
+}
+
+
+.p-header {
+
+  &-mllarge {
+    margin-left: 29px;
+  }
+
+}
+
+.p-form {
+  &__btn {
+    margin-left: 2px;
+  }
+}
+
+
+.u-subnav {
+
+  &-decorate {
+    margin-left: 4px;
+  }
+
+  & > li {
+    &:last-child {
+      margin-left: 2px;
+      margin-right: 0.5px;
+    }
+  }
+}
+
+
+.u-tel {
+  &__num {
+    margin: {
+      left: 20px;
+    }
+  }
+
+  &__time {
+    margin: {
+      left: 15px;
+    }
+  }
+}

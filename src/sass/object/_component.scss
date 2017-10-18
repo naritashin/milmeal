@@ -1,0 +1,108 @@
+.c-text {
+  &-basic {
+    font: {
+      size: 12px;
+    }
+  }
+
+  &-small {
+    font: {
+      size: 10px;
+    }
+  }
+
+  &-large {
+    font: {
+      size: 20px;
+    }
+  }
+
+  &-bold {
+    font:{
+      weight: bold;
+    }
+  }
+
+  &-nav {
+    color: #fff;
+  }
+
+  &-essential {
+    color: #c00;
+  }
+
+  &-brand {
+    color: $brandColor;
+  }
+
+  &-search {
+    font: {
+      size: 14px;
+      color: #fff;
+    }
+  }
+
+  &-link {
+    color: #000;
+  }
+
+  &-title {
+    color: #fff;
+  }
+}
+
+.c-bgcolor {
+  &-tel {
+    background-color: #666;
+  }
+}
+
+.c-nav {
+  width: 100%;
+}
+
+.c-list {
+  width: maxWidth;
+  & > li {
+    display: inline-block;
+  }
+}
+
+.c-wrapper {
+  width: $maxWidth;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+.c-form {
+@include form(240px, 16px);
+}
+
+.c-btn {
+  border: {
+    width: 1px;
+    radius: 3px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.c-btn {
+  border: {
+    color: $btnBorderColor;
+  }
+}
+
+.c-boxborder {
+  border: 1px solid #666;
+}
+
+.c-titlebox {
+  &-bgcolor {
+    background-color: $brandColor;
+  }
+}
