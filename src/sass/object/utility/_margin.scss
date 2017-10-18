@@ -1,26 +1,30 @@
 .u-mt {
-  @for $num from 4 through 24 {
+  @for $num from 1 through 24 {
     &-#{$num} {
       margin-top: #{$num}px;
     }
   }
 }
 
-
-.p-header {
-
-  &-mllarge {
-    margin-left: 29px;
-  }
-
+.u-mt-34 {
+  margin-top: 34px;
 }
 
-.p-form {
-  &__btn {
-    margin-left: 2px;
+.u-ml {
+  @for $num from 1 through 30 {
+    &-#{$num} {
+      margin-left: #{$num}px;
+    }
   }
 }
 
+.u-mb {
+  @for $num from 1 through 20 {
+    &-#{$num} {
+      margin-bottom: #{$num}px;
+    }
+  }
+}
 
 .u-subnav {
 
@@ -31,7 +35,6 @@
   & > li {
     &:last-child {
       margin-left: 2px;
-      margin-right: 0.5px;
     }
   }
 }

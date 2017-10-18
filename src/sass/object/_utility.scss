@@ -1,6 +1,25 @@
+.u-pb {
+  @for $num from 1 through 20 {
+    &-#{$num} {
+      padding-bottom: #{$num}px;
+    }
+  }
+}
+
+.u-fs-18 {
+  font-size: 18px;
+}
+
+.u-fs-12 {
+  font-size: 12px;
+}
 
 .u-lineheightmd {
   line-height: 2;
+}
+
+.u-lineheight-18 {
+  line-height: 18px;
 }
 
 .u-subnav {
@@ -23,5 +42,19 @@
     font: {
       size: 11px;
     }
+  }
+}
+
+.u-align {
+  &-left {
+    text-align: left;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-center {
+    text-align: center;
   }
 }

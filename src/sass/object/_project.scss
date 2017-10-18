@@ -33,6 +33,10 @@
     margin-left: 29px;
   }
 
+  &-boxborder {
+    @include boxborder(#666);
+  }
+
   &__tel {
     padding: {
       top: 9px;
@@ -67,14 +71,13 @@
 
 .p-list {
   display: table;
-  text-align: center;
    & > li {
     display: table-cell;
     padding: {
       top: 15px;
       bottom: 15px;
     }
-   }
+  }
 }
 
 .p-top {
@@ -93,12 +96,18 @@
   line-height: 65px;
 }
 
-.p-news-pd {
-  padding: {
-    top: 16px;
-    left: 16px;
-    right: 16px;
-    bottom: 13px;
+.p-news {
+  &-pd {
+    padding: {
+      top: 16px;
+      left: 16px;
+      right: 16px;
+      bottom: 13px;
+    }
+  }
+
+  &-boxborder {
+    @include boxborder(#626262);
   }
 }
 
@@ -126,7 +135,91 @@
 }
 
 .p-img {
+  height: 320px;
+  width: 220px;
+  overflow: hidden;
+
   &-shadow {
     box-shadow: 0 0 5px #ccc;
   }
+
+  &-product {
+    height: 223px;
+  }
+
+  &-cap {
+    padding: 5px;
+    color: #000;
+    background-color: #eee;
+
+    &-price {
+      font-size: 14px;
+    }
+  }
+
+}
+
+.p-categories {
+  height: 92px;
+  background-color: #f4f4f4;
+
+  &-boxborder {
+    @include boxborder(#4f4f4f);
+  }
+}
+
+.p-good {
+  &__item {
+    display: inline-block;
+    width: 462px;
+    vertical-align: top;
+    }
+
+  &__cap {
+    color: #000;
+    background-color: #eee;
+    padding: {
+      top: 9px;
+      left:5px;
+      right: 5px;
+    }
+
+    &__bottom {
+      @extend .p-good__cap;
+      padding: {
+        top: 10px;
+      }
+    }
+  }
+}
+
+.p-footer {
+  &__top {
+    background-color: #626262;
+    padding: {
+      top: 39px;
+      bottom: 37px;
+    }
+  }
+
+  &__nav {
+    &__list {
+      & >li {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__bottom {
+    background-color: #434343;
+    padding: {
+      top:32px;
+      bottom: 8px;
+    }
+  }
+}
+
+.p-author {
+  max-width: $maxWidth;
+  margin: 0 auto;
 }
