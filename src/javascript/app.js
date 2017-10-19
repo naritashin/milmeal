@@ -1,6 +1,7 @@
 $(function() {
   var $checkbox = $('.js-category');
   var $products = $('.js-products');
+
   $.ajax({
     url: '../../api/milmeal.json',
     dataType: 'json',
@@ -41,11 +42,7 @@ $(function() {
     };
 
     for (var i = 0; i < len; i++) {
-
-      if(value[i]) {
         $('.js-'+ value[i]).show();
-      };
-
     };
   });
 });
