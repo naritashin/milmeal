@@ -6,16 +6,8 @@
   }
 }
 
-.u-fs-18 {
-  font-size: 18px;
-}
-
-.u-fs-14 {
-  font-size: 14px;
-}
-
-.u-fs-12 {
-  font-size: 12px;
+.u-pt-4 {
+  padding-top: 4px;
 }
 
 .u-lineheightmd {
@@ -40,25 +32,5 @@
 .u-tel {
   &__num {
     line-height: 30px;
-  }
-
-  &__time {
-    font: {
-      size: 11px;
-    }
-  }
-}
-
-.u-align {
-  &-left {
-    text-align: left;
-  }
-
-  &-right {
-    text-align: right;
-  }
-
-  &-center {
-    text-align: center;
   }
 }

@@ -5,12 +5,6 @@
     }
   }
 
-  &-small {
-    font: {
-      size: 10px;
-    }
-  }
-
   &-large {
     font: {
       size: 20px;
@@ -41,17 +35,11 @@
     color: $brandColor;
   }
 
-  &-search {
-    color: #fff;
-    font: {
-      size: 14px;
-    }
-  }
-
   &-link {
     color: #000;
   }
 
+  &-search,
   &-title,
   &-author,
   &-total {

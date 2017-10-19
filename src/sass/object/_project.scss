@@ -4,19 +4,12 @@
 
 .p-logo {
   width: 288px;
-
-  font: {
-    size: 14px;
-  }
 }
 
 .p-header {
 
   &-text {
     letter-spacing: 1px;
-    font: {
-      size: 35px;
-    }
   }
 
   &__wrapper {
@@ -27,10 +20,6 @@
       left: 5px;
       right: 4px;
     }
-  }
-
-  &-mllarge {
-    margin-left: 29px;
   }
 
   &-boxborder {
@@ -63,16 +52,13 @@
       left: 3.9px;
       right: 4px;
     }
-    margin-left: 2px;
     color: #fff;
     background-color: $btnBgColor;
   }
 }
 
 .p-list {
-  display: table;
    & > li {
-    display: table-cell;
     padding: {
       top: 15px;
       bottom: 15px;
@@ -134,6 +120,37 @@
   }
 }
 
+.p-categories {
+  width: 940px;
+  margin: 0 auto;
+  height: 92px;
+  padding: 18px;
+  background-color: #f4f4f4;
+  line-height: 1.5;
+  font-size: 0;
+
+  &-boxborder {
+    @include boxborder(#000);
+  }
+}
+
+.p-product {
+  &__wrapper {
+    width: 960px;
+  }
+
+  &__list {
+    & > li {
+      margin: {
+        left: 10px;
+        right: 10px;
+        bottom: 15px;
+      }
+    }
+  }
+}
+
+
 .p-img {
   width: 220px;
   overflow: hidden;
@@ -151,8 +168,8 @@
   &-cap {
     padding: {
       top: 5px;
-      left: 5px;
-      right: 5px;
+      left: 4.8px;
+      right: 4.8px;
       bottom: 8px;
     }
     color: #000;
@@ -162,26 +179,12 @@
       height: 70px;
       line-height: 1.5;
     }
-
-    &-price {
-      font-size: 14px;
-    }
-  }
-
-}
-
-.p-categories {
-  height: 92px;
-  background-color: #f4f4f4;
-
-  &-boxborder {
-    @include boxborder(#4f4f4f);
   }
 }
 
 .p-good {
   &__item {
-    display: inline-block;
+    // display: inline-block;
     width: 462px;
     vertical-align: top;
     }
@@ -265,7 +268,6 @@
 }
 
 .p-total {
-  font-size: 16px;
   padding: {
     top: 5px;
     right: 12px;

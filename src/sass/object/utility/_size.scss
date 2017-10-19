@@ -1,0 +1,7 @@
+.u-fs {
+  @for $num from 10 through 35 {
+    &-#{$num} {
+      font-size: #{$num}px;
+    }
+  }
+}

@@ -6,10 +6,6 @@
   }
 }
 
-.u-mt-34 {
-  margin-top: 34px;
-}
-
 .u-ml {
   @for $num from 1 through 30 {
     &-#{$num} {
@@ -26,30 +22,19 @@
   }
 }
 
+.u-mt-34 {
+  margin-top: 34px;
+}
+
 .u-subnav {
 
   &-decorate {
-    margin-left: 4px;
+    margin-left: 4.2px;
   }
 
   & > li {
     &:last-child {
-      margin-left: 2px;
-    }
-  }
-}
-
-
-.u-tel {
-  &__num {
-    margin: {
-      left: 20px;
-    }
-  }
-
-  &__time {
-    margin: {
-      left: 15px;
+      margin-left: 3px;
     }
   }
 }

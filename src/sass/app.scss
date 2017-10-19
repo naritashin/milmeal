@@ -15,9 +15,11 @@
 
 // object
 @import './object/component';
+@import './object/project';
+@import './object/utility';
+@import './object/utility/align';
 @import './object/utility/clearfix';
 @import './object/utility/display';
 @import './object/utility/margin';
-@import './object/project';
-@import './object/utility';
+@import './object/utility/size';
 //
