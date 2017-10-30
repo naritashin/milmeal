@@ -1,0 +1,19 @@
+.c-title {
+  width: 300px;
+  height: 63px;
+  color: #fff;
+  background-color: $brandColor;
+  text-align: center;
+  line-height: 65px;
+
+  &-small {
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+
+    &-radius {
+      border-radius: 15px;
+    }
+  }
+}

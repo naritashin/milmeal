@@ -1,2 +1,52 @@
 .footer {
+  &__wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  &__top {
+    background-color: #626262;
+    padding: {
+      top: 39px;
+      bottom: 37px;
+    }
+  }
+
+  &__nav {
+    &__list {
+      padding-left: 11px;
+      & >li {
+        display: inline-block;
+
+        &:nth-child(n+2) {
+          margin-left: 19.9px;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    background-color: #434343;
+    padding: {
+      top:35px;
+      bottom: 11px;
+    }
+  }
+
+  &__img {
+    padding-top: 6px;
+  }
+
+  &__tel {
+    color: #999;
+
+    &__num {
+      letter-spacing: 1.2px;
+    }
+
+    &__time {
+      line-height: 30px;
+      vertical-align: super;
+    }
+  }
 }

@@ -1,3 +1,44 @@
 .header {
   border-top: 7px solid $brandColor;
+
+  &-text {
+    letter-spacing: 1px;
+  }
+
+  &__wrapper {
+    width: 950px;
+    margin: 0 auto;
+    padding: {
+      top: 8px;
+      bottom: 27px;
+      left: 5px;
+      right: 4px;
+    }
+  }
+
+  &-boxborder {
+    @include boxborder(#666);
+  }
+
+  &__tel {
+    padding: {
+      top: 9px;
+      left: 5px;
+      right: 7px;
+    }
+  }
+
+  &__time {
+    color: #fff;
+    background-color: #666;
+    padding :{
+      top: 7px;
+      left: 11.7px;
+      bottom: 7px;
+    }
+  }
+
+  &__nav {
+    background-color: $brandColor;
+  }
 }

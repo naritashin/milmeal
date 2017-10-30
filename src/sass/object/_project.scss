@@ -1,60 +1,5 @@
-.p-nav {
-  background-color: $brandColor;
-}
-
 .p-logo {
   width: 288px;
-}
-
-.p-header {
-
-  &-text {
-    letter-spacing: 1px;
-  }
-
-  &__wrapper {
-    width: 950px;
-    padding: {
-      top: 8px;
-      bottom: 27px;
-      left: 5px;
-      right: 4px;
-    }
-  }
-
-  &-boxborder {
-    @include boxborder(#666);
-  }
-
-  &__tel {
-    padding: {
-      top: 9px;
-      left: 5px;
-      right: 7px;
-    }
-  }
-
-  &__time {
-    padding :{
-      top: 7px;
-      left: 11.7px;
-      bottom: 7px;
-    }
-  }
-}
-
-.p-form {
-
-  &__btn {
-    padding: {
-      top: 4px;
-      bottom: 4px;
-      left: 3.9px;
-      right: 4px;
-    }
-    color: #fff;
-    background-color: $btnBgColor;
-  }
 }
 
 .p-list {
@@ -73,13 +18,6 @@
       top: 19px;
     }
   }
-}
-
-.p-title {
-  width: 300px;
-  height: 63px;
-  text-align: center;
-  line-height: 65px;
 }
 
 .p-news {
@@ -107,17 +45,6 @@
 
 .p-lineheight-l {
   line-height: 2.5;
-}
-
-.p-smalltitle {
-  width: 300px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-
-  &-radius {
-    border-radius: 15px;
-  }
 }
 
 .p-categories {
@@ -203,56 +130,6 @@
       padding: {
         top: 10px;
       }
-    }
-  }
-}
-
-.p-footer {
-  &__top {
-    background-color: #626262;
-    padding: {
-      top: 39px;
-      bottom: 37px;
-    }
-  }
-
-  &__nav {
-    &__list {
-      padding-left: 11px;
-      & >li {
-        display: inline-block;
-
-        &:nth-child(n+2) {
-          margin-left: 19.9px;
-        }
-      }
-    }
-  }
-
-  &__bottom {
-    background-color: #434343;
-    padding: {
-      top:35px;
-      bottom: 11px;
-    }
-  }
-
-  &__img {
-    padding-top: 6px;
-  }
-
-  &__tel {
-    color: #999;
-
-    &__num {
-      font-size: 30px;
-      letter-spacing: 1.2px;
-    }
-
-    &__time {
-      font-size: 10px;
-      line-height: 30px;
-      vertical-align: super;
     }
   }
 }

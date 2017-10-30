@@ -9,12 +9,17 @@
 
 // layout
 @import './layout/header';
+
 @import './layout/total';
-// @import './layout/footer';
+@import './layout/footer';
 //
 
 // object
 @import './object/component';
+@import './object/component/btn';
+@import './object/component/form';
+@import './object/component/nav';
+@import './object/component/title';
 @import './object/project';
 @import './object/utility';
 @import './object/utility/align';

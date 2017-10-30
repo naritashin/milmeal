@@ -1,0 +1,30 @@
+.c-btn {
+  border: {
+    width: 1px;
+    radius: 3px;
+    color: $btnBorderColor;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__search {
+    padding: {
+      top: 4px;
+      bottom: 4px;
+      left: 3.9px;
+      right: 4px;
+    }
+    color: #fff;
+    background-color: $btnBgColor;
+  }
+
+  &__nav {
+    color: #fff;
+    padding: {
+      top: 15px;
+      bottom: 15px;
+    }
+  }
+}
