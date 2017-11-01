@@ -34,16 +34,13 @@ $(function() {
   }
 
   $('.js-category').on('change', function() {
-    var value = Array.from(
-          $('.js-category input:checked')
-          .map(function(){
-            return $(this).val();
-          })
-        );
+    var checked = $('.js-category input:checked');
 
     $productsList.children().hide();
 
-    value.forEach(function(value) {
+    checked.each(function() {
+      var value = $(this).val();
+
       $('.js-' + value).show();
     });
   });
