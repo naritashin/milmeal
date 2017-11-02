@@ -1,6 +1,18 @@
 $(function() {
   var $productsList = $('.js-product_list');
 
+  $('.js-category').on('change', function() {
+    var checked = $('.js-category input:checked');
+
+    $productsList.children().hide();
+
+    checked.each(function() {
+      var value = $(this).val();
+
+      $('.js-' + value).show();
+    });
+  });
+
   $.ajax({
     url: '../../api/milmeal.json',
     dataType: 'json'
@@ -32,17 +44,4 @@ $(function() {
         $productsList.append(item);
     });
   }
-
-  $('.js-category').on('change', function() {
-    var checked = $('.js-category input:checked');
-
-    $productsList.children().hide();
-
-    checked.each(function() {
-      var value = $(this).val();
-
-      $('.js-' + value).show();
-    });
-  });
 });
-
